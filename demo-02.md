@@ -22,7 +22,6 @@
     ```sh
     git clone https://github.com/your-empid/new-repo.git
     ```
-
     > Replace with your actual repository URL.
 
 ---
