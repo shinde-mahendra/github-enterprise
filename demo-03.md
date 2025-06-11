@@ -28,7 +28,7 @@
 
 ## 2. Add a project in this repository
 
-1. Visit `https://github.com/mahendra-shinde/asp.net-core-ci` using web browser
+1. Visit https://github.com/mahendra-shinde/asp.net-core-ci using web browser
 2. Locate a green button `Code` click on it
 3. Use option `Download as ZIP`
 4. Go back to command prompt or Cmder where you have local repository accessible.
