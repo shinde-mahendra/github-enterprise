@@ -1,20 +1,20 @@
-# Using an existing repository from GitHub Enterprise
+# Using an Existing Repository from GitHub Enterprise
 
-## 1. Login into your GitHub
+## 1. Login to GitHub
 
-1. Go to [GitHub Login page](https://github.com/hexavarsity-mavericks/)
-2. Login with your Hexaware Credentials
-3. Find an existing Repository with name `EMP-ID_repo`
-4. If you get `Quick Setup` page with TWO options
-    i.  Create new repository on command line
-    ii. Push an existing repository from the command line
-5. Open GitHub in new tab
-6. Use URL `https://github.com/settings/token`
-7. Click on `Generate New Token` (Right top of screen)
-8. Then click `Generate new token (classic)`
-9. Enter name for Token (eg T1) and choose permissions: `Repo` and `Workflow`
-10. Click `Generate` button, after token is generated, copy token text and store it in notepad for later use.
-11. Click on name of token, then click `Configure SSO` -> choose Organization name `Hexavarsity-mavericks` and click `Authorize`
+1. Go to the [GitHub Login page](https://github.com/hexavarsity-mavericks/).
+2. Log in with your Hexaware credentials.
+3. Find an existing repository named `EMP-ID_repo`.
+4. If you see the `Quick Setup` page with two options:
+    - **Create a new repository on the command line**
+    - **Push an existing repository from the command line**
+5. Open GitHub in a new tab.
+6. Visit `https://github.com/settings/token`.
+7. Click **Generate New Token** (top right of the screen).
+8. Then click **Generate new token (classic)**.
+9. Enter a name for the token (e.g., T1) and select permissions: `repo` and `workflow`.
+10. Click **Generate**. After the token is generated, copy the token text and save it in Notepad for later use.
+11. Click the name of the
 12. Go back to browser tab where `Quick setup` from repository is visible.
 13. Copy the instructions for option 1 `Create new repository on command line`
 14. Open `cmder.exe` or command prompt
@@ -26,20 +26,26 @@
 18. Enter your employee-id_hexaware and for password use the TOKEN generated earlier.
 ---
 
-## 2. Clone the New Repository Locally Using Command Prompt
+## 2. Add a project in this repository
 
-1. After the import completes, copy the URL of your new repository (e.g., `https://github.com/your-empid/new-repo.git`).
-2. Open **Command Prompt**.
-3. Run:
-    
-    ```sh
-    git clone https://github.com/your-empid/new-repo.git
+1. Visit `https://github.com/mahendra-shinde/asp.net-core-ci` using web browser
+2. Locate a green button `Code` click on it
+3. Use option `Download as ZIP`
+4. Go back to command prompt or Cmder where you have local repository accessible.
+6. use command `pwd` to get local folder path, copy this path
+7. Open the newly downloaded `asp.net-core-ci-master.zip` using file extraction tools like WinZip or 7Zip
+8. Inside the ZIP file, there should be a folder, open the folder `asp.net-core-ci-master` and extract the contents of this folder
+9. For extraction path (destination) use CTRL-V (paste) to use local path shown by `pwd` command in earlier step (6).
+10. Click `Overwrite` if file confict occurrs.
+11. go back to Cmder terminal and use following command to commit and push the changes
     ```
-    > Replace with your actual repository URL.
+    git add .
+    git commit -m "Project files added"
+    git push
+    ```
 
----
+    > You should get a prompt for username and password, but if you didnt get any and PUSH was shown as sucessful. It means git is using `Credential Manager` to store and retrieve your password automatically.
 
-**You have now imported and cloned the repository locally.**
 
 ## Create new Github Action workflow to build and publish container image to GitHub Container Registry
 
@@ -51,5 +57,4 @@
 6. Review and update the workflow file as needed (e.g., set the correct image name and registry).
 7. Click **"Start commit"** and then **"Commit new file"** to add the workflow to your repository.
 
-> This workflow will automatically build and publish your Docker image to GitHub Container Registry on every push.
 
