@@ -2,7 +2,7 @@
 
 ## 1. Login to GitHub
 
-1. Go to the [GitHub Login page](https://github.com/hexavarsity-mavericks/).
+1. Go to the https://github.com/hexavarsity-mavericks
 2. Log in with your Hexaware credentials.
 3. Find an existing repository named `EMP-ID_repo`.
 4. If you see the `Quick Setup` page with two options:
@@ -14,7 +14,7 @@
 8. Then click **Generate new token (classic)**.
 9. Enter a name for the token (e.g., T1) and select permissions: `repo` and `workflow`.
 10. Click **Generate**. After the token is generated, copy the token text and save it in Notepad for later use.
-11. Click the name of the
+11. Click the name of the `token`
 12. Go back to browser tab where `Quick setup` from repository is visible.
 13. Copy the instructions for option 1 `Create new repository on command line`
 14. Open `cmder.exe` or command prompt
