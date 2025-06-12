@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p47H8Dr/7+A=",
+  "dgSpecHash": "x4ULlTIehe4=",
   "success": true,
-  "projectFilePath": "D:\\git\\github-enterprise\\demos\\app1\\app1.csproj",
+  "projectFilePath": "d:\\git\\github-enterprise\\demos\\app1\\app1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mahendra\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Mahendra\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

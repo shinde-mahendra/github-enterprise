@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\git\\github-enterprise\\demos\\app1\\app1.csproj": {}
+    "d:\\git\\github-enterprise\\demos\\app1\\app1.csproj": {}
   },
   "projects": {
-    "D:\\git\\github-enterprise\\demos\\app1\\app1.csproj": {
+    "d:\\git\\github-enterprise\\demos\\app1\\app1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git\\github-enterprise\\demos\\app1\\app1.csproj",
+        "projectUniqueName": "d:\\git\\github-enterprise\\demos\\app1\\app1.csproj",
         "projectName": "app1",
-        "projectPath": "D:\\git\\github-enterprise\\demos\\app1\\app1.csproj",
+        "projectPath": "d:\\git\\github-enterprise\\demos\\app1\\app1.csproj",
         "packagesPath": "C:\\Users\\Mahendra\\.nuget\\packages\\",
-        "outputPath": "D:\\git\\github-enterprise\\demos\\app1\\obj\\",
+        "outputPath": "d:\\git\\github-enterprise\\demos\\app1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mahendra\\AppData\\Roaming\\NuGet\\NuGet.Config"
